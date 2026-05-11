@@ -11,7 +11,7 @@ This project is focused on learning:
 - Responsive Design
 
 ---
-
+![Preview](./Preview.png)
 # Preview
 
 The website contains:
