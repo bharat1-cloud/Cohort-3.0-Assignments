@@ -35,14 +35,13 @@ The website contains:
 # Folder Structure
 
 ```plaintext
-project-folder/
+Assignment 1/
 │
+├── Preview.png
+├── README.md
 ├── index.html
-├── style.css
-├── images/
-│   └── pikachu.png
-│
-└── README.md
+├── pngwing.com.webp
+└── style.css
 ```
 
 ---
@@ -81,7 +80,7 @@ project-folder/
 Download or clone the repository.
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_LINK
+git clone https://github.com/bharat1-cloud/Cohort-3.0-Assignments/tree/85fb488d80af274aaffd7ff207670b2d3ae3eac0/Assignment%201
 ```
 
 ## Step 2
