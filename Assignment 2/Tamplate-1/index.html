@@ -1,1 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Insights & Blogs</title>
+</head>
+
+<body>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Navbar -->
+        <nav class="navbar">
+
+            <!-- Logo -->
+            <div class="logo">
+                <div class="logo-icon"></div>
+                <h2>ScaleX</h2>
+            </div>
+
+            <!-- Nav Links -->
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+            <!-- Button -->
+            <button class="nav-btn">Get Started</button>
+
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero">
+
+            <h1>Insights & Blogs</h1>
+
+            <!-- Categories -->
+            <div class="categories">
+ <button class="active">All</button>
+                <button>Tech</button>
+                <button>SaaS</button>
+                <button>Marketing</button>
+
+            </div>
+
+        </section>
+
+        <!-- Blog Cards -->
+        <section class="cards">
+
+            <!-- Card 1 -->
+            <div class="card">
+
+                <div class="image-box">
+                    <img src="./images/tech.png" alt="">
+                </div>
+
+                <div class="card-content">
+
+                    <span class="tag">Tech</span>
+
+                    <h2>
+                        The Ultimate Guide To
+                        SaaS Marketing
+                    </h2>
+
+                    <p>May 09, 2026</p>
+
+                </div>
+
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+
+                <div class="image-box">
+                    <img src="./images/sass.png" alt="">
+                </div>
+
+                <div class="card-content">
+
+                    <span class="tag">SaaS</span>
+
+                    <h2>
+                        5 Key Trends In SaaS
+                        Growth For 2025
+                    </h2>
+
+                    <p>May 10, 2026</p>
+
+                </div>
+
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+
+                <div class="image-box">
+                    <img src="./images/marketing.png" alt="">
+                </div>
+
+                <div class="card-content">
+
+                    <span class="tag">Marketing</span>
+
+                    <h2>
+                        How Data-Driven
+                        Strategies Are Important
+                    </h2>
+
+                    <p>May 11, 2026</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <script>
+      const buttons = document.querySelectorAll("button");
+
+      buttons.forEach((button) => {
+        button.addEventListener("click", () => {
+          buttons.forEach((item) => item.classList.remove("active"));
+          button.classList.add("active");
+        });
+      });
+    </script>
+</body>
+</html>
